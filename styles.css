@@ -101,16 +101,22 @@ ul /*list in no.html*/{
   }
 
 .cookie  /*cookie, the image*/{
-  display:block;
-  height: 1500px;
-  position: relative;
-  text-align: center;
-  margin-top: 200px;
+    display:block;
+    height: 1500px;
+    position: relative;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+ 
   }
+
+
 
 .goback p/*go back on main page and say that you're doing doing good*/{
     color:coral;
-    margin-top: 0mm;
+    margin-top: 20px;
     margin-left: 200px;
     margin-right: 200px;
     font-size: 1.5em;
@@ -127,24 +133,46 @@ ul /*list in no.html*/{
   }
 
 @media only screen and (max-width: 800px) {
+  .hello  /*cookie, the image*/{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    text-align: center;
+  }
+  .helloim{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .centered /*formatting of text over image*/{
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
+
   .centered p /* hey how are you doing*/{    
     font-size: 0.8em;
   }
 
   .options /*good, not good*/{
-      font-size: 0.6em;    
+      font-size: 0.5em;    
   }
 
   .heyy /*glad you're doing good in good.html*/{
     margin-left: 40px;
     margin-right: 40px;
-    font-size: 2.5em;
+    font-size: 1.5em;
   }
 
   .title /*title in good.html*/{
     margin-left: 40px;
     margin-right: 40px;
-    font-size: 0.4em;
+    font-size: 0.3em;
   }
 
   h3 /*heppy and safe in good.html*/ {
@@ -160,7 +188,7 @@ ul /*list in no.html*/{
   }
 
   ul /*list in no.html*/{ 
-    margin-left: 50px;
+    margin-left: 30px;
     margin-right: 40px;
     font-size: 0.9em;
   }
@@ -173,15 +201,25 @@ ul /*list in no.html*/{
 
   .cookie  /*cookie, the image*/{
     display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 600px;
     position: relative;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 250px;
+  }
+  .cookieim{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
   }
 
   .goback p/*go back on main page and say that you're doing doing good*/{
     margin-left: 40px;
     margin-right: 30px;
     font-size: 1em;
+    margin-top: 0%;
   }
 
 
