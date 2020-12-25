@@ -23,8 +23,9 @@
       color: rgb(3, 44, 82);    
   }
 
-.options a /* link fomatting in options */{
-    text-decoration: none;
+.options a:hover /* link fomatting in options */{
+      text-decoration: none;
+      animation: slide 2s ease-in-out .5s infinite alternate;
   }
 
 .centered /*formatting of text over image*/{
@@ -76,7 +77,7 @@ h3 /*heppy and safe in good.html*/ {
     font-size: 1.5em;
     margin-top: 70px;
     font-family: 'Paprika', cursive;;
-}
+  }
 ul /*list in no.html*/{
     color:white;
     margin-left: 200px;
@@ -123,14 +124,68 @@ ul /*list in no.html*/{
     font-size: 1.2em;
     margin-top: 70px;
     font-family: 'Langar', cursive;
-}
-
-@media screen and  (max-width : 700 px){
-  .centered p /* hey how are you doing*/{    
-    font-size: 20px;
-
-
   }
+
+@media only screen and (max-width: 800px) {
+  .centered p /* hey how are you doing*/{    
+    font-size: 0.8em;
+  }
+
+  .options /*good, not good*/{
+      font-size: 0.6em;    
+  }
+
+  .heyy /*glad you're doing good in good.html*/{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 2.5em;
+  }
+
+  .title /*title in good.html*/{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 0.4em;
+  }
+
+  h3 /*heppy and safe in good.html*/ {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 0.5em;
+  } 
+
+  .awwman{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 1em;
+  }
+
+  ul /*list in no.html*/{ 
+    margin-left: 50px;
+    margin-right: 40px;
+    font-size: 0.9em;
+  }
+
+  .gift p/*gift*/{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 1em;
+  }
+
+  .cookie  /*cookie, the image*/{
+    display:block;
+    position: relative;
+    text-align: center;
+    margin-top: 200px;
+  }
+
+  .goback p/*go back on main page and say that you're doing doing good*/{
+    margin-left: 40px;
+    margin-right: 30px;
+    font-size: 1em;
+  }
+
+
+}
 
   /*lights in good.html*/
   button:hover, #submit:hover, button:active, #submit:active {
@@ -268,4 +323,4 @@ ul /*list in no.html*/{
       text-shadow: 0 0 20px #fff, 0 0 30px #2ecc71, 0 0 40px #2ecc71, 0 0 50px #2ecc71, 0 0 60px #2ecc71, 0 0 70px #2ecc71, 0 0 80px #2ecc71;
     }
   }
- 
+}
