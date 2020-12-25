@@ -20,7 +20,7 @@
       font-family: 'Paprika', cursive;
       font-size: 0.8em; 
       text-decoration: none;
-      color: rgb(3, 44, 82);    
+      color: rgb(82, 54, 3);    
   }
 
 .options a:hover /* link fomatting in options */{
@@ -163,7 +163,8 @@ ul /*list in no.html*/{
   }
 
   .options /*good, not good*/{
-      font-size: 0.5em;    
+      font-size: 0.5em;
+         
   }
 
   .heyy /*glad you're doing good in good.html*/{
@@ -228,7 +229,7 @@ ul /*list in no.html*/{
 
 }
 
-  /*lights in good.html*/
+  /*lights in good.html*/ /* code for christmas lights used from the repo 'florinpop17/app-ideas'*/
   button:hover, #submit:hover, button:active, #submit:active {
     outline: none;
     background: rgb(184, 134, 222);
