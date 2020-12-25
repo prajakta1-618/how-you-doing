@@ -152,10 +152,9 @@ ul /*list in no.html*/{
   }
 
   .centered /*formatting of text over image*/{
-    position: relative;
-    top: 0%;
+    position: absolute;
+    top: 30%;
     left: 50%;
-    transform: translate(-50%, -50%)
   }
 
   .centered p /* hey how are you doing*/{    
@@ -224,6 +223,9 @@ ul /*list in no.html*/{
     margin-right: 30px;
     font-size: 1em;
     margin-top: 0%;
+  }
+  .comics{
+    font-size: 0.7em;
   }
 
 
