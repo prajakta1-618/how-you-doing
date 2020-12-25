@@ -131,6 +131,9 @@ ul /*list in no.html*/{
     margin-top: 70px;
     font-family: 'Langar', cursive;
   }
+.comics a{
+  color: gray;
+}
 
 @media only screen and (max-width: 800px) {
   .hello  /*cookie, the image*/{
@@ -166,13 +169,13 @@ ul /*list in no.html*/{
   .heyy /*glad you're doing good in good.html*/{
     margin-left: 40px;
     margin-right: 40px;
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
 
   .title /*title in good.html*/{
     margin-left: 40px;
     margin-right: 40px;
-    font-size: 0.3em;
+    font-size: 0.5em;
   }
 
   h3 /*heppy and safe in good.html*/ {
