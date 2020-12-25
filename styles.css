@@ -126,7 +126,7 @@ ul /*list in no.html*/{
     font-family: 'Langar', cursive;
   }
 
-@media only screen and (max-width: 800px) {
+/*@media only screen and (max-width: 800px) {
   .centered p /* hey how are you doing*/{    
     font-size: 0.8em;
   }
@@ -185,7 +185,7 @@ ul /*list in no.html*/{
   }
 
 
-}
+}*/
 
   /*lights in good.html*/
   button:hover, #submit:hover, button:active, #submit:active {
