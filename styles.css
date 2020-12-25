@@ -126,7 +126,7 @@ ul /*list in no.html*/{
     font-family: 'Langar', cursive;
   }
 
-/*@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   .centered p /* hey how are you doing*/{    
     font-size: 0.8em;
   }
@@ -138,13 +138,13 @@ ul /*list in no.html*/{
   .heyy /*glad you're doing good in good.html*/{
     margin-left: 40px;
     margin-right: 40px;
-    font-size: 2.5em;
+    font-size: 1.5em;
   }
 
   .title /*title in good.html*/{
     margin-left: 40px;
     margin-right: 40px;
-    font-size: 0.4em;
+    font-size: 0.3em;
   }
 
   h3 /*heppy and safe in good.html*/ {
@@ -160,7 +160,7 @@ ul /*list in no.html*/{
   }
 
   ul /*list in no.html*/{ 
-    margin-left: 50px;
+    margin-left: 40px;
     margin-right: 40px;
     font-size: 0.9em;
   }
@@ -185,7 +185,7 @@ ul /*list in no.html*/{
   }
 
 
-}*/
+}
 
   /*lights in good.html*/
   button:hover, #submit:hover, button:active, #submit:active {
