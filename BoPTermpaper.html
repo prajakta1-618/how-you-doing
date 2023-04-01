@@ -3,7 +3,8 @@
 <head>
 <title>BoPs!</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+
 <style>
 * {
   box-sizing: border-box;
@@ -22,25 +23,41 @@ body {
 }
 
 .header h1 {
-  font-size: 40px;
+  font-size: 60px;
 }
 
 p {
     font-size: 20px;
 }
-.row {  
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .main {   
   flex: 100%;
   background-color: white;
+  position: absolute;
+  text-align: justify;
   margin-right: 15%;
   margin-left: 15%;
   margin-top: 60px;
   margin-bottom: 60px;
 }
+
+@media only screen and (max-width: 600px) {
+  .main {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 40px;
+  }
+
+  .header h1 {
+  font-size: 40px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+
 img{
   display: none;
 }
@@ -62,7 +79,7 @@ span:hover + iframe{
 <body>
 
 <div class="header">
-  <h1>Sexual Selection and the Evolution of the Morphology of Birds of Paradise</h1>
+  <h1>Sexual Selection and the Evolution of the Morphology <br>of Birds of Paradise</h1>
   <p>Modified version of Term Paper Submission for BIO614: Topics in Evolutionary Biology Coursework</p>
 </div>
 
